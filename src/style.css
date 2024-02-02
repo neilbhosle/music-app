@@ -1,0 +1,78 @@
+
+.App {
+    margin-top: 10px;
+    background-color: #f0f0f0; 
+    padding: 10px; 
+}
+
+.entry-container {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.song-container {
+    background-color: #f8f8f8;
+}
+
+.podcast-container {
+    background-color: #e6f7ff;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.artist {
+    font-style: italic;
+}
+
+.details {
+    color: #666;
+}
+
+.episode-title {
+    color: #333;
+}
+
+
+.App {
+    margin-top: 20px;
+}
+
+
+.song-container,
+.podcast-container {
+    display: inline-block;
+    width: 30%;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+  .outlined-dark-button {
+    background-color: transparent;
+    color: #333;
+    border: 2px solid #333;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .outlined-dark-button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
+  
+ 
